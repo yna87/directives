@@ -1,0 +1,12 @@
+{
+  "name": "directives",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "format": "prettier --write \"**/*.{md,json,vue,ts,js,ini}\""
+  },
+  "devDependencies": {
+    "prettier": "^3.8.0"
+  },
+  "packageManager": "pnpm@10.24.0"
+}
