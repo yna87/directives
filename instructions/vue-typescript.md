@@ -48,7 +48,7 @@ const props = withDefaults(
   { title: 'Default Title' }
 )
 
-const handleSave = () => {
+const onSave = () => {
   props.save?.(count.value)
 }
 </script>
